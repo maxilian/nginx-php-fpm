@@ -8,4 +8,6 @@ Simply use docker-compose command to create this docker container stack.
 docker-compose up -d
 ```
 
-it will exposing port 8082 to port 80 inside nginx container 
+* It will exposing port 8082 from host to port 80 inside nginx container.
+* put your php project to `www` directory.
+* to add more configuration you can change nginx default.conf and php.ini inside `config` directory.
