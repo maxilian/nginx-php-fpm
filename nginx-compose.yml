@@ -14,6 +14,7 @@ services:
     volumes:
       - ./www:/var/www
       - ./config/www.conf:/usr/local/etc/php-fpm.d/www.conf
+      - ./config/php.ini:/usr/local/etc/php/php.ini
   nginx-alpine:
     image: nginx:alpine
     container_name: reverse_proxy
