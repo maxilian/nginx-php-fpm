@@ -1,9 +1,5 @@
 # author: maxilian
 # git profile: https://github.com/maxilian
-
-
-version: "4"
-
 services: 
 
   php-fpm:
